@@ -1,0 +1,20 @@
+{
+  "name": "events-cli",
+  "version": "1.0.0",
+  "description": "A cli to update events on the Node Girls website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "minaorangina",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.1.0",
+    "clear": "0.0.1",
+    "clui": "^0.3.6",
+    "figlet": "^1.2.0",
+    "inquirer": "^3.2.3",
+    "minimist": "^1.2.0",
+    "moment": "^2.18.1"
+  }
+}
