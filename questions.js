@@ -38,13 +38,7 @@ const questions = [
     message: 'Give an event description:'
   },
   {
-    name: 'venue',
-    type: 'input',
-    message: 'Where is the event happening?',
-    default: 'TBC'
-  },
-  {
-    name: 'start time',
+    name: 'startTime',
     type: 'input',
     message: 'What time does it start?',
     default: '10:00',
@@ -56,7 +50,7 @@ const questions = [
     }
   },
   {
-    name: 'end time',
+    name: 'endTime',
     type: 'input',
     message: 'What time does it end?',
     default: '16:00',
@@ -68,15 +62,31 @@ const questions = [
     }
   },
   {
+    name: 'signupURL',
+    type: 'input',
+    message: 'Enter the URL where people can sign up (e.g. Typeform)'
+  },
+  {
     name: 'sponsor',
     type: 'input',
     message: 'Who is sponsoring the event?',
     default: 'TBC'
   },
   {
-    name: 'sponsor image',
+    name: 'location',
     type: 'input',
-    message: 'Do you have an logo for the sponsor? (An image url)'
+    message: 'Where is the event happening?',
+    default: 'TBC'
+  },
+  {
+    name: 'sponsorWebsite',
+    type: 'input',
+    message: 'What is the sponsor\'s website?'
+  },
+  {
+    name: 'sponsorImage',
+    type: 'input',
+    message: 'Do you have an logo for the sponsor?\nIt can be a URL or a local image (relative to the root dir)'
   },
   {
     name: 'confirm',
